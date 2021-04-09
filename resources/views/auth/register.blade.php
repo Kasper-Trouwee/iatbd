@@ -51,7 +51,7 @@
                 <x-label for="role" :value="__('Register as')" />
                 <select name="role" id="role" class="block mt-1 w-full border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo 200 focus:ring-opacity-50 rounded-md shadow-sm">
                     <option value="">Choose Role</option>
-                    <option value="Pet Owner">Pet Owner</option>
+                    <option value="Pet owner">Pet Owner</option>
                     <option value="Sitter">Sitter</option>
                 </select>
             </div>

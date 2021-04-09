@@ -23,6 +23,8 @@
         @elseif(\Auth::user()->role === 'Admin')
             <a class="navigation__link" href="/content-manager/users">Users</a>
             <a class="navigation__link" href="/content-manager/deleterequests">Requests</a>
+        @elseif(\Auth::user()->role === 'Sitter')
+            <a class="navigation__link" href="/sitter/edit">Edit profile</a>
         @endif
 
         @if(\Auth::user())
